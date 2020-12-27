@@ -1,0 +1,130 @@
+.org-item {
+  background: #f30606;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50% 50%;
+      grid-template-columns: 50% 50% 50%;
+  -ms-grid-rows: 50% 50% 50%;
+      grid-template-rows: 50% 50% 50%;
+  margin: auto;
+  padding: 1.5rem 1.5rem;
+  width: 50%;
+  border: 1px solid black;
+  margin-bottom: 3.5rem;
+  color: white;
+}
+
+.org-item2 {
+  background: #33342e;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50% 50%;
+      grid-template-columns: 50% 50% 50%;
+  -ms-grid-rows: 50% 50% 50%;
+      grid-template-rows: 50% 50% 50%;
+  margin: auto;
+  padding: 1.5rem 1.5rem;
+  width: 50%;
+  border: 1px solid black;
+  margin-bottom: 3.5rem;
+  color: #ffde17;
+}
+
+.org-item3 {
+  background: #8fa132;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50% 50%;
+      grid-template-columns: 50% 50% 50%;
+  -ms-grid-rows: 50% 50% 50%;
+      grid-template-rows: 50% 50% 50%;
+  margin: auto;
+  padding: 1.5rem 1.5rem;
+  width: 50%;
+  border: 1px solid black;
+  margin-bottom: 3.5rem;
+  color: #ffde17;
+}
+
+.org-item h2 {
+  font-size: 36px;
+  font-weight: bold;
+  min-height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 2px;
+}
+
+.org-item2 h2 {
+  font-size: 36px;
+  font-weight: bold;
+  min-height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 2px;
+}
+
+.org-item3 h2 {
+  font-size: 36px;
+  font-weight: bold;
+  min-height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 2px;
+}
+
+.org-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.6;
+}
+
+.org-item2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.6;
+}
+
+.org-item3 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.6;
+}
+
+.click:hover {
+  opacity: 1;
+  display: block;
+}
+
+.click:hover img {
+  opacity: 1;
+  display: block;
+}
+/*# sourceMappingURL=organization.css.map */

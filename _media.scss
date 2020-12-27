@@ -1,0 +1,50 @@
+.grid-container {
+  background: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem;
+  width: 85%;
+  margin: auto;
+  row-gap: 10rem;
+  column-gap: 4rem;
+  margin-top: 3rem;
+}
+
+.grid-p {
+  color: rgb(43, 41, 41);
+  font-size: 17px;
+  word-spacing: 2px;
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+  text-align: center;
+  padding: 25px;
+  font-family: "EB Garamond", serif;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: 1px solid black;
+  background-color: rgb(219, 219, 223);
+}
+
+.grid-item h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  min-height: 8vh;
+  background: rgb(24, 23, 23);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item a {
+  display: block;
+  background: rgb(24, 23, 23);
+}
+
+.grid-item a:hover {
+  background-color: red;
+}

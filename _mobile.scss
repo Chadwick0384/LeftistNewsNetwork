@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 1rem;
+  }
+  .section-item a {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav ul {
+    all: unset;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+  }
+  .mobile h2 {
+    font-size: 1rem;
+  }
+  body {
+    height: 30vh;
+  }
+  header {
+    padding-top: 30rem;
+  }
+  .nav li {
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    padding-right: 1rem;
+    color: red;
+    font-weight: bolder;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+  .about p {
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  .quote {
+    all: unset;
+    font-size: 1rem;
+  }
+  div.bernie {
+    min-height: 10vh;
+    display: block;
+    text-align: left;
+    .quote {
+      display: block;
+      width: 270px;
+      padding: 1rem 1.2rem 2rem 1rem;
+    }
+    p {
+      display: block;
+      font-size: 1.3rem;
+      text-align: left;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .bernie img {
+    height: 100%;
+    width: 100%;
+  }
+}
