@@ -609,7 +609,7 @@ a:hover {
 
 .bernie {
   background: #a4463a;
-  padding: 70px 50px 65px;
+  padding: 70px 65px 65px;
   max-width: 2000px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -635,6 +635,7 @@ a:hover {
   font-size: 2.2rem;
   word-spacing: 0.5rem;
   padding: 10rem;
+  color: white;
 }
 
 #myBtn {
