@@ -10,7 +10,7 @@
   row-gap: 10rem;
   -webkit-column-gap: 4rem;
           column-gap: 4rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .grid-p {
@@ -71,7 +71,6 @@
 
 @media screen and (max-width: 768px) {
   .nav ul {
-    all: unset;
     font-size: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -92,7 +91,7 @@
     height: 30vh;
   }
   header {
-    padding-top: 30rem;
+    min-height: 25vh;
   }
   .nav li {
     padding-left: 1rem;
@@ -104,7 +103,7 @@
   .grid-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    row-gap: 5rem;
+    row-gap: 3rem;
   }
   .about p {
     text-align: left;
@@ -145,6 +144,7 @@
 .organization {
   min-height: 90vh;
   background: #f7f4f4;
+  padding-bottom: 3rem;
 }
 
 .org-item {
@@ -366,12 +366,14 @@
   }
   .burger {
     display: block;
+    padding-left: 15rem;
+    padding-top: 5rem;
   }
   .nav-list {
     position: absolute;
     right: 0px;
-    height: 70vh;
-    top: 8vh;
+    height: 40vh;
+    top: 25vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -391,10 +393,11 @@
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
   }
   .nav-list a {
-    color: red;
+    color: white;
   }
   .nav-list li {
     opacity: 0;
+    padding: 1rem;
   }
   .nav-active {
     -webkit-transform: translateX(0%);
@@ -437,7 +440,8 @@
 
 @media screen and (max-width: 1024px) {
   .nav-list {
-    width: 70%;
+    width: 60%;
+    background-color: black;
   }
 }
 
@@ -449,26 +453,30 @@
 }
 
 header {
-  background-image: url(./Images/MichaelBrooks.jpg);
+  background-image: url(./Images/whitelogo.svg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 200px 150px;
+  background-position: left;
   background-color: black;
 }
 
 header nav {
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 35rem 15rem 5rem 55rem;
+  min-height: 14vh;
 }
 
 header ul {
   list-style: none;
-  font-size: 40px;
+  font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -675,7 +683,7 @@ a:hover {
   display: none;
   position: fixed;
   bottom: 25px;
-  right: 53px;
+  right: 260px;
   z-index: 99;
   border: none;
   outline: none;

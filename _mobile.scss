@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 768px) {
   .nav ul {
-    all: unset;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -25,7 +24,7 @@
     height: 30vh;
   }
   header {
-    padding-top: 30rem;
+    min-height: 25vh;
   }
   .nav li {
     padding-left: 1rem;
@@ -36,7 +35,7 @@
   }
   .grid-container {
     grid-template-columns: 1fr;
-    row-gap: 5rem;
+    row-gap: 3rem;
   }
   .about p {
     text-align: left;
