@@ -103,7 +103,7 @@
   .grid-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    row-gap: 2rem;
+    row-gap: 3rem;
   }
   .about p {
     text-align: left;
@@ -366,7 +366,7 @@
   }
   .burger {
     display: block;
-    padding-left: 17rem;
+    padding-left: 20rem;
     padding-top: 7rem;
   }
   .nav-list {
