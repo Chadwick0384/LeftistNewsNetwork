@@ -107,8 +107,8 @@
   }
   .about p {
     text-align: left;
-    padding: 1rem;
-    font-size: 1.2rem;
+    padding: 1.3rem;
+    font-size: 1.3rem;
   }
   .quote {
     all: unset;
@@ -562,7 +562,7 @@ h2 {
 }
 
 .about-p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1.5rem 15rem;
   word-spacing: 2px;
   letter-spacing: 1px;
