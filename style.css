@@ -103,7 +103,7 @@
   .grid-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    row-gap: 3rem;
+    row-gap: 4rem;
   }
   .about p {
     text-align: left;
@@ -143,7 +143,7 @@
 
 .organization {
   min-height: 90vh;
-  background: #f7f4f4;
+  background-image: url("./Images/ep_naturalwhite.png");
   padding-bottom: 3rem;
 }
 
@@ -441,7 +441,7 @@
 @media screen and (max-width: 1024px) {
   .nav-list {
     width: 50%;
-    background-color: black;
+    background-color: #292626;
   }
 }
 
@@ -458,7 +458,7 @@ header {
   background-size: 200px 150px;
   padding: 1rem;
   background-position: left 20px center;
-  background-color: #000000;
+  background-color: #292626;
 }
 
 header nav {
@@ -512,6 +512,7 @@ section {
 body {
   font-family: "EB Garamond", serif;
   min-height: 100vh;
+  background-color: #ffffff;
 }
 
 .about {
@@ -709,7 +710,7 @@ a:hover {
 }
 
 .foot {
-  background-color: black;
+  background-color: #292626;
   color: white;
   min-height: 15vh;
   display: -webkit-box;

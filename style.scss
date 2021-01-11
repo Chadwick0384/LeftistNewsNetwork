@@ -15,7 +15,7 @@ header {
   background-size: 200px 150px;
   padding: 1rem;
   background-position: left 20px center;
-  background-color: #000000;
+  background-color: rgb(41, 38, 38);
   nav {
     color: white;
     display: flex;
@@ -57,6 +57,7 @@ section {
 body {
   font-family: "EB Garamond", serif;
   min-height: 100vh;
+  background-color: #ffffff;
 }
 
 .about {
@@ -219,7 +220,7 @@ a:hover {
 
 //Footer
 .foot {
-  background-color: black;
+  background-color: rgb(41, 38, 38);
   color: white;
   min-height: 15vh;
   display: flex;
