@@ -14,8 +14,9 @@
 }
 
 .grid-p {
-  color: #2b2929;
-  font-size: 17px;
+  color: #e9e1e1;
+  font-size: 20px;
+  text-decoration: none;
   word-spacing: 2px;
   letter-spacing: 0.2rem;
   line-height: 2rem;
@@ -498,7 +499,7 @@ header li a:hover {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .brooks {
